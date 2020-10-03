@@ -1,15 +1,14 @@
-
 public class Fraction {
 	
 	private int dividende;
 	private int diviseur;
-	private double result; 
+	private int result; 
 	
 	
 	public Fraction(int dividende, int diviseur) {
 		this.dividende = dividende;
 		this.diviseur = diviseur;
-		result = dividende/(double)diviseur;
+		result = dividende/diviseur;
 	}
 
 
